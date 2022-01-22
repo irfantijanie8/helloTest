@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.math.SceneController">
+   <children>
+      <AnchorPane prefHeight="514.0" prefWidth="723.0">
+         <children>
+            <AnchorPane layoutX="5.0" layoutY="5.0" prefHeight="505.0" prefWidth="698.0">
+               <children>
+                  <ImageView fitHeight="433.0" fitWidth="723.0" layoutX="-6.0" layoutY="74.0">
+                     <image>
+                        <Image url="C:\Users\LENOVO\Downloads\STUDY\CAT201\JAVA ASSIGNMENT\CODING\gambar java\adventure_time_comic.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="26.0" layoutY="27.0" mnemonicParsing="false" text="HOME" />
+                  <Text layoutX="643.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME" />
+                  <ImageView fitHeight="377.0" fitWidth="245.0" layoutY="128.0">
+                     <image>
+                        <Image url="C:\Users\LENOVO\Downloads\STUDY\CAT201\JAVA ASSIGNMENT\CODING\gambar java\download.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="330.0" fitWidth="401.0" layoutX="278.0" layoutY="176.0">
+                     <image>
+                        <Image url="C:\Users\LENOVO\Downloads\STUDY\CAT201\JAVA ASSIGNMENT\CODING\gambar java\download.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="401.0" layoutX="276.0" layoutY="128.0">
+                     <image>
+                        <Image url="C:\Users\LENOVO\Downloads\STUDY\CAT201\JAVA ASSIGNMENT\CODING\gambar java\download.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="382.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHAPTER 2 : SUBTRACTION" wrappingWidth="212.942626953125">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="448.0" layoutY="455.0" mnemonicParsing="false" onAction="#switchToScene5" text="EXERCISE" />
+                  <Pane layoutX="304.0" layoutY="217.0" prefHeight="210.0" prefWidth="354.0">
+                     <children>
+                        <ImageView fitHeight="212.0" fitWidth="361.0" layoutX="-2.0">
+                           <image>
+                              <Image url="C:\Users\LENOVO\Downloads\STUDY\CAT201\JAVA ASSIGNMENT\CODING\gambar java\5 years old\scene_4.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Line endX="40.800010681152344" endY="234.79998779296875" layoutX="7.0" layoutY="174.0" startX="40.800010681152344" startY="23.599990844726562" />
+                  <RadioButton layoutX="40.0" layoutY="187.0" mnemonicParsing="false" onAction="#switchToScene1" text="Chapter 1: Addition" />
+                  <RadioButton layoutX="40.0" layoutY="228.0" mnemonicParsing="false" onAction="#switchToScene2" text="Example" />
+                  <RadioButton layoutX="40.0" layoutY="266.0" mnemonicParsing="false" onAction="#switchToScene3" text="Exercise 1" />
+                  <RadioButton layoutX="40.0" layoutY="308.0" mnemonicParsing="false" onAction="#switchToScene4" text="Chapter 2: Subtraction" />
+                  <RadioButton layoutX="40.0" layoutY="341.0" mnemonicParsing="false" onAction="#switchToScene5" text="Exercise 2" />
+                  <RadioButton layoutX="40.0" layoutY="401.0" mnemonicParsing="false" onAction="#switchToScene6" text="Assessment" />
+                  <Button layoutX="276.0" layoutY="127.0" mnemonicParsing="false" onAction="#switchToScene3" prefHeight="26.0" prefWidth="36.0" text="&lt;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="642.0" layoutY="127.0" mnemonicParsing="false" onAction="#switchToScene5" prefHeight="26.0" prefWidth="36.0" text="&gt;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
